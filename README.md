@@ -2,6 +2,10 @@
 
 See https://github.com/lukas2511/letsencrypt.sh and https://github.com/AnalogJ/lexicon
 
+I created this image to make it easy to generate and maintain letsencrypt
+certificates using letsencrypt.sh's support for the dns-01 verification method,
+combined with lexicon since it handles so many DNS providers.
+
 ## Basic Usage
 
 This will run the letsencrypt.sh script without a configuration file.
@@ -27,3 +31,4 @@ https://github.com/lukas2511/letsencrypt.sh/blob/194d543fa11ba5bc8501df532b97728
 
     mkdir certs
     echo test.example.com > certs/domains.txt
+
