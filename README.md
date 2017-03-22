@@ -24,9 +24,8 @@ certificates will actually be stored.
 
 ## More advanced usage
 
-You can take advantage of the dehydrated domains.txt and config file (See
-example here:
-https://github.com/lukas2511/dehydrated/blob/194d543fa11ba5bc8501df532b97728726a3caec/docs/examples/config)
+You can take advantage of the dehydrated domains.txt and config file. See
+example [here](https://github.com/lukas2511/dehydrated/blob/194d543fa11ba5bc8501df532b97728726a3caec/docs/examples/config)
 
 
     mkdir certs
