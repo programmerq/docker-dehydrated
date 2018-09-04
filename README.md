@@ -19,7 +19,7 @@ certificates will actually be stored.
            -e LEXICON_CLOUDFLARE_USERNAME='user@example.com' \
            -e LEXICON_CLOUDFLARE_TOKEN=`123456789012345678901234567890123456` \
            -v `pwd`/certs:/dehydrated/certs \
-           programmerq/dehydrated -c -d test.example.com -t dns-01 -k /lexicon.dehydrated
+           programmerq/dehydrated -c -d test.example.com -t dns-01 -k /lexicon.dehydrated.sh
 
 
 ## More advanced usage
